@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="prob_1">
+        <h2><u>Problem 1: Reverse a string</u></h2>
+
+        <input type="text" id="prob_1_input">
+        <button type="button" id="prob_1_btn" onclick=str_rev()>Reverse String</button>
+        <h2>The reversed string is:-</h2>
+        <h3 id="prob_1_result"></h3>
+    </div>
+
+    <div class="prob_2">
+
+        <h2><u>Problem 2: Check if input is a palindrome</u></h2>
+
+        <input type="text" id="prob_2_input">
+        <button type="button" id="prob_2_btn" onclick=pali_check()>Check if pallindrome</button>
+        <h2>The input is</h2>
+        <h3 id="prob_2_result"></h3>
+    </div>
+
+    <div class="prob_3">
+        <h2><u>Problem 3: Calculate total bill</u></h2>
+
+        <input type="text" type="number" id="prob_3_input" placeholder="Enter bill subtotal">
+        <input type="text" type="number" id="prob_3_tip_input" placeholder="Enter tip percentage" min="0" max="100">
+        <button type="button" id="prob_3_btn" onclick=bill_tot()>Calculate bill total</button>
+        <h2>Grand total:-</h2>
+        <h3 id="prob_3_result"></h3>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

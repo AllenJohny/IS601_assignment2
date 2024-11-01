@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    background-color: purple;
+}
+
+.prob_1{
+    background-color: aquamarine;
+    height: 300px;
+    width: auto;
+    border: 5px solid black;
+    text-align: center;
+    margin: 2px;
+}
+
+.prob_2{
+    background-color: bisque;
+    height: 300px;
+    width: auto;
+    border: 5px solid black;
+    text-align: center;
+    margin: 2px;
+}
+
+.prob_3{
+    background-color: rgb(217, 238, 29);
+    height: 300px;
+    width: auto;    
+    border: 5px solid black;
+    text-align: center;
+    margin: 2px;
+}
